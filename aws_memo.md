@@ -64,3 +64,10 @@ sudo ufw allow 20
 sudo ufw allow 21
 ```
 AWS セキュリティグループの FTP (20-21) を開ける。
+
+---
+```
+useradd minimal97
+passwd minimal97
+パスワードをいれる
+```
