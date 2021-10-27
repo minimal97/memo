@@ -71,3 +71,11 @@ useradd minimal97
 passwd minimal97
 パスワードをいれる
 ```
+
+ユーザーの追加
+```
+sudo vi vsftpd.chroot_list
+```
+で
+minimal97 を記載
+vi コマンド :w :q で保存して終了
