@@ -39,3 +39,27 @@ sudo systemctl reload apache2
 sudo systemctl disable apache2
 sudo systemctl enable apache2
 ```
+---
+apache memo
+```
+cd /var/www/
+mkdir minimal97
+
+```
+
+ftp
+```
+sudo apt-get install vsftpd
+sudo systemctl enable vsftpd
+```
+
+```
+sudo systemctl enable vsftpd
+sudo systemctl restart vsftpd
+sudo systemctl disable vsftpd
+```
+
+```
+sudo ufw allow 20
+sudo ufw allow 21
+```
