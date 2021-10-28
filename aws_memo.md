@@ -80,9 +80,13 @@ sudo vi vsftpd.chroot_list
 [ftpuser] を記載
 vi コマンド :w :q で保存して終了
 
-
 ```
 cd /home/
 sudo mkdir [ftpuser]
+```
+---
+```
+sudo apt-get install php
+sudo apt-get install perl
 ```
 
