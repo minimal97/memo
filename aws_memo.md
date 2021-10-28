@@ -67,8 +67,8 @@ AWS セキュリティグループの FTP (20-21) を開ける。
 
 ---
 ```
-useradd minimal97
-passwd minimal97
+useradd [ftpuser]
+passwd [ftpuser]
 パスワードをいれる
 ```
 
@@ -77,12 +77,12 @@ passwd minimal97
 sudo vi vsftpd.chroot_list
 ```
 で
-minimal97 を記載
+[ftpuser] を記載
 vi コマンド :w :q で保存して終了
 
 
 ```
 cd /home/
-sudo mkdir minimal97
+sudo mkdir [ftpuser]
 ```
 
