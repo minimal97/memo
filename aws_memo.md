@@ -90,3 +90,8 @@ sudo apt-get install php
 sudo apt-get install perl
 ```
 
+ヘタレ設定なので、default をコピーしてdefaultを書き換え
+```
+cd /etc/apache2/sites-available
+sudo cp 000-default.conf 000-back.conf
+```
